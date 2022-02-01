@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game用webサイト</title>
+    <link rel="stylesheet" href="random.css">
+</head>
+<body>
+    <h1>game用数字作成</h1>
+    <p>ラウンド数</p> <input type = "text" id = "round" class = "number">
+    <p>プレイヤーナンバーは？</p>
+    <input type = "text" id = "pnumber" class = "number"></br>
+    <p>作成する数字の数は？(1~3)</p>
+    <input type = "text" id = "volume" class ="number"></br>
+    <form>
+        <button id = "sakusei" type = "button" class="button">計算</button> <button id = "reset" type = "reset" class="button">リセット</button>   
+        <p>あなたの数字は</p>
+        <input type = "text" id = "number1" class ="content">
+        <input type = "text" id = "number2" class ="content">
+        <input type = "text" id = "number3" class ="content">
+    </form>    
+    <p>お題案</p>
+    <select class="form_select" id="request">
+        <option>カッコいい苗字・名前</option>
+        <option>カッコいいセリフ</option>
+        <option>小学生が好きな言葉</option>
+        <option>中高生が好きな言葉</option>
+        <option>大学生が好きな言葉</option>
+        <option>社会人が好きな言葉</option>
+        <option>ペットにしたい動物</option>
+        <option>お菓子・スイーツやアイスの人気</option>
+        <option>食べ物のカロリー</option>
+        <option>おもちゃの人気</option>
+        <option>電化製品の人気</option>
+        <option>テンションが上がるもの・こと</option>
+        <option>カバンに入っていたら嬉しいもの</option>
+        <option>強そうな言葉（漢字、熟語など）</option>
+        <option>アニメ・漫画の人気</option>
+        <option>ゲームの人気</option>
+        <option>ボードゲームの人気</option>
+        <option>映画の登場人物の強さ</option>
+        <option>キャラクターの人気</option>
+        <option>便利なもの</option>
+        <option>子供に人気なもの</option>
+        <option>おにぎりの具の人気</option>
+        <option>パンの種類の人気</option>
+        <option>カッコいいもの</option>
+        <option>可愛いもの</option>
+        <option>職業の人気</option>
+        <option>資格・免許の人気</option>
+        <option>言われてうれしい言葉</option>
+        <option>生き物の人気</option>
+        <option>生き物の強さ</option>
+        <option>コンビニ商品の人気</option>
+        <option>100円ショップ商品の人気</option>
+        <option>歴史上の人物の強さ</option>
+        <option>なりたい歴史上の人物</option>
+        <option>アプリ・ウェブサービスの人気</option>
+        <option>乗り物の人気</option>
+        <option>楽しいこと</option>
+        <option>嬉しいこと</option>
+        <option>なりたい生き物</option>
+        <option>生き物の大きさ</option>
+        <option>和食料理の人気</option>
+        <option>洋食料理の人気</option>
+        <option>親になってほしいキャラ</option>
+        <option>欲しい特殊能力</option>
+        <option>欲しい武器</option>
+        <option>スポーツの人気</option>
+        <option>地球観光に来た宇宙人にあげたい土産</option>
+        <option>声優の人気</option>
+        <option>ゾンビと戦う時に持っていきたいもの</option>
+        <option>学生時代で嫌だったこと</option>
+        <option>給食の人気</option>
+        <option>結婚したいキャラ</option>
+        <option>強そうな効果音</option>
+        <option>旅行で行きたい国</option>
+        <option></option>
+        <option>ぐっとくる仕草・行動</option>
+        <option>されたいプロポーズ</option>
+        <option>時代遅れの言葉</option>
+        <option>オタクが喜ぶセリフ・設定</option>
+        <option>酒のつまみ・居酒屋メニューの人気</option>
+        <option>恋人にしたい職業の人気</option>
+        <option>モテる条件・特技</option>
+        <option>デートスポットの人気</option>
+        <option>ハネムーンで行きたい場所の人気</option>
+        <option>奥さんに作ってもらいたい料理</option>
+        <option>告白をする場所の人気</option>
+        <option>初デートで行きたい場所</option>
+        <option>異性に言われたら嬉しい言葉</option>
+    </select></br>
+    <h3>~memo~</h3>
+    ・<input type = "text" placeholder="プレイヤー1" class ="memo" autocomplete="off"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー2" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー3" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー4" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー5" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー6" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー7" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー8" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー9" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+    ・<input type = "text" placeholder="プレイヤー10" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"> <input type = "text" class ="memo"></br>
+
+    <script src = "random.js"></script>
+</body>
+</html>

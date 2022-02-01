@@ -1,0 +1,112 @@
+body{
+    font-size:120%;
+    text-align : center;
+    background-color:#eff8ff;
+}
+
+.content {
+    font-size:80px;
+    text-align : center;
+    height:120px;
+    width:200px;
+    border:2px solid ;
+}
+
+p{
+    font-size:150%;
+    margin-top:50px;
+    margin-bottom:5px;
+    margin-left:35%;
+    margin-right:35%;
+    padding: 1rem 2rem;
+    border-left: 5px solid rgb(49, 19, 219);
+    background: #d9eeff;
+    line-height:1;
+}
+
+.button{
+    height:50px;
+    width:20%;
+    font-size:30px;
+    margin-top:50px;
+    border: solid 2px rgb(49, 19, 219);
+    background: #d9eeff;
+}
+
+.number{
+    display: inline-block;
+    text-align : center;
+    height:40px;
+    width:60px;
+    font-size:30px;
+
+    border:2px solid ;
+}
+
+.form_select{
+    height:40px;
+    width:300px;
+    font-size:85%;
+}
+
+.memo{
+    height:40px;
+    width:20%;
+    margin-bottom:30px;
+    font-size:25px;
+}
+
+h1{
+    position: relative;
+    padding: 5px 26px 5px 42px;
+    background: #d9eeff;
+    font-size: 40px;
+    color: #2d2d2d;
+    margin-left: -33px;
+    line-height: 1.3;
+    border-bottom: solid 5px rgb(49, 19, 219);
+    z-index:-2;
+}
+
+h3{
+    margin-top:50px;
+    font-size:30px;
+}
+
+@media(max-width:600px){
+    p{
+        font-size:100%;
+        margin-top:30px;
+        margin-bottom:5px;
+        margin-left:15%;
+        margin-right:15%;
+        padding: 1rem 2rem;
+        border-left: 5px solid rgb(49, 19, 219);
+        background: #d9eeff;
+        line-height:1;
+    }
+
+    .button{
+        height:50px;
+        width:25%;
+        font-size:20px;
+        margin-top:50px;
+        border: solid 2px rgb(49, 19, 219);
+        background: #d9eeff;
+    }
+
+    .content {
+        font-size:40px;
+        text-align : center;
+        height:80px;
+        width:60px;
+        border:2px solid rgb(49, 19, 219);
+    }
+
+    .memo{
+        height:20px;
+        width:20%;
+        margin-bottom:15px;
+        font-size:10px;
+    }
+}
